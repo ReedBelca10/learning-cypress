@@ -1,8 +1,8 @@
 import * as React from 'react';
-import Accordion from '@mui/material/Accordion';
-import AccordionSummary from '@mui/material/AccordionSummary';
-import AccordionDetails from '@mui/material/AccordionDetails';
-import Typography from '@mui/material/Typography';
+import Accordion from '@mui/material/Accordion/Accordion';
+import AccordionSummary from '@mui/material/AccordionSummary/AccordionSummary';
+import AccordionDetails from '@mui/material/AccordionDetails/AccordionDetails';
+import Typography from '@mui/material/Typography/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 export default function ItemsAccordion({items}) {
